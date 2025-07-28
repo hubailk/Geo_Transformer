@@ -55,4 +55,10 @@ install(DIRECTORY
   DESTINATION share/${PROJECT_NAME}
 )
 
+install(FILES
+  requirements.txt
+  README.md
+  DESTINATION share/${PROJECT_NAME}
+)
+
 ament_package()

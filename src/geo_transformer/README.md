@@ -12,20 +12,34 @@ The coordinate transformations are handled by the GeographicLib library, which p
 
 ## Dependencies
 
+### System Dependencies
 - ROS2 Humble
-- GeographicLib
+- GeographicLib C++ library
 - rclcpp
 - std_msgs
 - geographic_msgs
 
+### Python Dependencies
+See [requirements.txt](requirements.txt) for the complete list of Python dependencies.
+- rclpy
+- geometry_msgs
+- geographic_msgs
+- numpy
+- geographiclib
+
 ## Installation
 
-1. Install GeographicLib:
+1. Install GeographicLib C++ library:
 ```bash
 sudo apt-get install libgeographic-dev
 ```
 
-2. Clone this repository into your ROS2 workspace's src directory:
+2. Install Python dependencies:
+```bash
+pip3 install -r requirements.txt
+```
+
+3. Clone this repository into your ROS2 workspace's src directory:
 ```bash
 cd ~/your_workspace/src
 git clone https://github.com/hubailk/Geo_Transformer.git

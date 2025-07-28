@@ -1,0 +1,9 @@
+# ROS2 packages
+rclpy>=0.6.0
+geometry_msgs>=2.0.0
+geographic_msgs>=1.0.0
+std_msgs>=2.0.0
+
+# Python dependencies
+numpy>=1.20.0
+geographiclib>=2.0  # Python implementation of GeographicLib
